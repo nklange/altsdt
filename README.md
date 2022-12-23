@@ -8,15 +8,15 @@ MWW (2007) data made available to David Kellen, and preprocessed as in preproces
 
 Resulting data:
 
-SB2020_e1
-SB2020_e2
-SB2020_e3
-SB2021_e1
-SB2021_e2
-SB2021_e3
-MWW2007_e1
-MWW2007_e2
-MWW2007_e3
+SB2020_e1  
+SB2020_e2  
+SB2020_e3  
+SB2021_e1  
+SB2021_e2  
+SB2021_e3  
+MWW2007_e1  
+MWW2007_e2  
+MWW2007_e3  
 
 In some instances data and fits relating to SB2021_e1, SB2021_e2, SB2021_e3 are referred to as SB2022_e1, SB2022_e2, SB2022_e3 - they are the same data.
 
@@ -39,9 +39,9 @@ Fundamentally, two procedures:
 
 ## Flow
 
-Toplevel routine in FitModel.R
-AnalyseGsquared.R: Calculate G^2 for best fits
-AnalyseFits_graphs.R: Identify best fits, model comparison by AIC, create visualizations of empirical fit
+Toplevel routine in FitModel.R  
+AnalyseGsquared.R: Calculate G^2 for best fits  
+AnalyseFits_graphs.R: Identify best fits, model comparison by AIC, create visualizations of empirical fit  
 
 # ShinyApp
 
@@ -66,7 +66,7 @@ PenalizeMimicry.R
 
 # Analyse effects of variance in item effects
 
-SimulateItemVariance.R: Effects of manipulating item variance on ROC and parameter estimates (SB2022_e3)
+SimulateItemVariance.R: Effects of manipulating item variance on ROC and parameter estimates (SB2022_e3)  
 SimulateItemVariance_v2.R: Effects of manipulating item variance on ROC and parameter estimates (SB2022_e1,SB2022_e2)
 
 # Analyse correlation of mu and sigma_o in U-V Gaussian fits
